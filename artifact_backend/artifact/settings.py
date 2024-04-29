@@ -29,7 +29,8 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = os.getenv('DEBUG')
 
 ALLOWED_HOSTS = [
-    'https://bounswe2024group7-yslcfqdwna-oa.a.run.app'
+    'https://bounswe2024group7-yslcfqdwna-oa.a.run.app',
+    'bounswe2024group7-yslcfqdwna-oa.a.run.app'
 ]
 
 CORS_ALLOWED_ORIGINS = [
