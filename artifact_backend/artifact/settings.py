@@ -34,7 +34,7 @@ ALLOWED_HOSTS = [
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
-    "https://bounswe.github.io/bounswe2024group7"
+    'https://bounswe.github.io'
 ]
 
 CORS_ALLOW_CREDENTIALS = True
