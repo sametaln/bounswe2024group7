@@ -90,8 +90,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': os.getenv('MYSQL_DATABASE'),
         'USER': os.getenv('MYSQL_USER'),
-        'PASSWORD': os.getenv('MYSQL_PASSWORD'),
-        'HOST': os.getenv('DB_HOST', 'artifact_mysql'),   # Or an IP Address that your DB is hosted on
+        'PASSWORD': os.getenv('MYSQL_PASSWORD'),        
+        'HOST': os.getenv('DB_HOST', f"/cloudsql/ferrous-aleph-421815:europe-west6:artifact"),   # Or an IP Address that your DB is hosted on
         'PORT': os.getenv('DB_PORT', '3306'),
     }
 }
