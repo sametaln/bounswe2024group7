@@ -28,10 +28,13 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "https://bounswe2024group7-yslcfqdwna-oa.a.run.app"
+]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000'
+    'http://localhost:3000',
+    "https://bounswe.github.io/bounswe2024group7"
 ]
 
 CORS_ALLOW_CREDENTIALS = True
